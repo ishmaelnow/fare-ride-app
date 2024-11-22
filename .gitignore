@@ -4,17 +4,27 @@ backend/node_modules/
 frontend/node_modules/
 
 # Build files
+frontend/build/
 backend/dist/
 
 # Logs
 logs/
 *.log
+npm-debug.log*
 
 # Environment Variables
 .env
 backend/.env
 frontend/.env
 
+# IDE settings
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
 # Miscellaneous
-.DS_Store
-.cache/
+Thumbs.db
