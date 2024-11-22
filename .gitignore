@@ -13,6 +13,7 @@ frontend/.env
 
 # Build files
 frontend/build/
+backend/dist/
 
 # Cache
 .DS_Store
@@ -26,3 +27,6 @@ frontend/build/
 
 # IDE settings (optional, if using VS Code)
 .vscode/
+
+# Yarn lockfile (if not using Yarn)
+yarn.lock
