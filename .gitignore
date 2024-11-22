@@ -1,5 +1,12 @@
 # Node.js dependencies
 node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Build files
+frontend/build/
+frontend/dist/  # In case you use `dist` for frontend builds
+backend/dist/   # Only if the backend has a build process
 
 # Logs
 logs/
@@ -11,22 +18,24 @@ npm-debug.log*
 backend/.env
 frontend/.env
 
-# Build files
-frontend/build/
-backend/dist/
-
-# Cache
+# Cache files
 .DS_Store
 .cache/
 *.cache
+*.tmp
 
 # Temporary files
-*.tmp
 *.swp
 *.bak
 
-# IDE settings (optional, if using VS Code)
+# IDE settings (VS Code and others)
 .vscode/
+.idea/
 
-# Yarn lockfile (if not using Yarn)
+# Lockfiles (optional, depending on your package manager)
 yarn.lock
+pnpm-lock.yaml
+
+# Miscellaneous
+*.bak
+Thumbs.db  # Windows thumbnail cache files
