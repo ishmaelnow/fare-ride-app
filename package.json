@@ -1,0 +1,14 @@
+{
+  "name": "fare-ride-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node backend/server.js", 
+    "heroku-postbuild": "cd frontend && npm install && npm run build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Fare Ride App for booking and managing rides",
+  "dependencies": {}
+}

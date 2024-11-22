@@ -1,0 +1,28 @@
+# Node.js dependencies
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+
+# Environment Variables
+.env
+backend/.env
+frontend/.env
+
+# Build files
+frontend/build/
+
+# Cache
+.DS_Store
+.cache/
+*.cache
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# IDE settings (optional, if using VS Code)
+.vscode/
