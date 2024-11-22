@@ -1,24 +1,12 @@
 {
   "name": "fare-ride-app",
   "version": "1.0.0",
-  "main": "backend/server.js",  
   "scripts": {
-    "start": "node backend/server.js",  
-    "heroku-postbuild": "cd frontend && npm install && npm run build && cd ../backend && npm install" 
+    "start": "node backend/server.js",
+    "heroku-postbuild": "npm install --prefix frontend && npm run build --prefix frontend && npm install --prefix backend"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": "Fare Ride App for booking and managing rides",
-  "dependencies": {
-    "express": "^4.21.1",
-    "mongoose": "^8.8.2",
-    "cors": "^2.8.5",
-    "dotenv": "^16.4.5",
-    "mailgun.js": "^10.2.4",
-    "form-data": "^4.0.1"
-  },
+  "dependencies": {},
   "engines": {
-    "node": ">=18.0.0"
+    "node": "18.x"
   }
 }
