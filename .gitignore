@@ -3,10 +3,8 @@ node_modules/
 backend/node_modules/
 frontend/node_modules/
 
-# Build files
-frontend/build/
-frontend/dist/  # In case you use `dist` for frontend builds
-backend/dist/   # Only if the backend has a build process
+# Backend build files (if any build process exists for backend)
+backend/dist/
 
 # Logs
 logs/
