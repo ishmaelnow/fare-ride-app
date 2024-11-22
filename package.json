@@ -2,7 +2,7 @@
   "name": "fare-ride-app",
   "version": "1.0.0",
   "scripts": {
-    "start": "node backend/server.js",
+    "start": "node backend/server.js", 
     "heroku-postbuild": "npm install --prefix frontend && npm run build --prefix frontend && npm install --prefix backend"
   },
   "dependencies": {},
